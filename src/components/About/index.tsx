@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Box maxW="1200px" w="100%" mb="5rem">
 
-      <TitleSeparation title='Sobre Mim' bgTitle='SOBRE MIM' />
+      <TitleSeparation title='SOBRE MIM' bgTitle='SOBRE MIM' />
       <SimpleGrid columns={2} w="100%" h="80vh">
         <Center>
           <Box>

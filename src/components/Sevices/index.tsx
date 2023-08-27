@@ -7,7 +7,7 @@ export const Services = () => {
   return (
     <Box maxW="1200px" w="100%" mb="3rem">
 
-      <TitleSeparation title='Serviços' bgTitle='SERVIÇOS' />
+      <TitleSeparation title='SERVIÇOS' bgTitle='SERVIÇOS' />
 
       <SimpleGrid columns={3} w="100%" h="78vh" mt="3rem" spacing={2}>
         {ListServices.map((service) => (

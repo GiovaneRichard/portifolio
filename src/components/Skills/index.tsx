@@ -9,7 +9,7 @@ export const Skills = () => {
   return (
     <Box maxW="1200px" w="100%" color="#fff">
 
-      <TitleSeparation title='Habilidades' bgTitle='HABILIDADES' />
+      <TitleSeparation title='HABILIDADES' bgTitle='HABILIDADES' />
 
       <SimpleGrid columns={2} w="100%" h="60vh" mt="3rem" spacing={5}>
         <VStack spacing={10}>

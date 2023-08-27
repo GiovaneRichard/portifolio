@@ -5,6 +5,7 @@ import { About } from '../About'
 import { Services } from '../Sevices'
 import { ExperienceAndEducation } from '../ExperienceAndEducation'
 import { Skills } from '../Skills'
+import { Contact } from '../Contact'
 
 export const Portifolio = () => {
   return (
@@ -14,6 +15,7 @@ export const Portifolio = () => {
       <Services />
       <Skills />
       <ExperienceAndEducation />
+      <Contact />
     </VStack>
   )
 }

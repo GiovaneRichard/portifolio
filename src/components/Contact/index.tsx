@@ -2,21 +2,18 @@ import { Box, Center, Flex, SimpleGrid, Text, VStack, Image, Button, HStack } fr
 import { TitleSeparation } from '../TitleSepation'
 import { Stepper } from '../Organism/shared/components/Stepper'
 import { ListEducation, ListExperience } from '../Organism/shared/components/Stepper/utils'
+import { FormContact } from '../Organism/shared/components/FormContact'
 
 
-export const ExperienceAndEducation = () => {
+export const Contact = () => {
   return (
     <Box maxW="1200px" w="100%" color="#fff">
 
-      <TitleSeparation title='RESUMO' bgTitle='RESUMO' />
+      <TitleSeparation title='CONTACTE-ME' bgTitle='CONTACTE-ME' />
 
-      <SimpleGrid columns={2} w="100%" h="78vh" mt="3rem" spacing={2}>
+      <SimpleGrid columns={2} w="100%" h="70vh" mt="3rem" spacing={2}>
         <Box>
-          <HStack spacing={5} mb="3rem">
-            <Image src="/images/resume-icon1.png" />
-            <Text fontSize="2.3rem">Experiencias</Text>
-          </HStack>
-          <Stepper steps={ListExperience} />
+          <FormContact />
         </Box>
         <Box>
           <HStack spacing={5} mb="3rem">
