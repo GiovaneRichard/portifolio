@@ -3,9 +3,14 @@ import { TitleSeparation } from '../TitleSepation'
 import { Stepper } from '../Organism/shared/components/Stepper'
 import { ListEducation, ListExperience } from '../Organism/shared/components/Stepper/utils'
 import { FormContact } from '../Organism/shared/components/FormContact'
+import { useState } from 'react'
+import { ISendMessageTo } from './types/interface'
 
 
 export const Contact = () => {
+
+  const [submited, setSubmited] = useState(false);
+
   return (
     <Box maxW="1200px" w="100%" color="#fff">
 

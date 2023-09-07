@@ -1,13 +1,15 @@
 export interface IContact {
   name: string;
+  assunto: string;
   email: string;
-  subject: string;
-  menssage: string;
+  message: string;
+  ccToMe: false;
 }
 
 export const initiationValues = {
   name: "",
+  assunto: "",
   email: "",
-  subject: "",
   message: "",
+  ccToMe: false,
 };
